@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Julius+Sans+One&display=swap" rel="stylesheet">
+        <title>Landing page</title>
+        
+    </head>
+
+    <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+    <header id="header">
+        <img id="header-img" src="./logo.png" alt=""> <!--logo-->
+        <nav id="nav-bar">
+            <ul id="links">
+                <li><a class="nav-link" href="#intro">Video</a></li>
+                <li><a class="nav-link" href="#form">Newsletter</a></li>
+                <li><a class="nav-link" href="#credits">Credits</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <div id="blurb">
+            <p>
+                Take a breath<br>
+                Be at peace<br>
+                It's your world
+            </p>
+        </div>
+        <!--On youtube click share then embed and copy code-->
+        <iframe id="video"
+            src="https://www.youtube.com/embed/BiqlZZddZEo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <section id="quote">
+        <p>Quiet the mind and the soul will speak.</p>
+        <p>Ma Jaya Sati Bhagavati</p>
+    </section>
+
+    <section id="sign-up">
+        <h2>Sign up for my newsletter</h2>
+        <p>Since this is an example of a landing page, entering your email will do nothing. Sorry about that. When I have a newsletter, you'll be the first to know ;)</p>
+        <form id="form" action=" https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" name="email" placeholder=" EMAIL">
+            <input id="submit" type="submit" value="SUBMIT">
+        </form>
+    </section>
+
+    <footer id="footer">
+        <h2>Credits</h2>
+        <ul id="credits">
+            
+            <li><a href="https://flyclipart.com/art-sun-rise-vector-logo-download-vector-logos-free-download-sun-vector-png-375625"
+                target="_blank">
+                Logo: Art Sun Rise Vector Free Download
+            </a></li>
+            <li><a href="https://soothingrelaxation.com/products/dance-of-life-digital-album"
+                target="_blank">
+                Video: Dance of Life - Peder B Helland
+            </a></li>
+            
+        </ul>
+        <p><a href="https://www.freecodecamp.org/" target="_blank">
+            A FreeCodeCamp project
+        </a></p>
+    </footer>
+</body>
+</html>
